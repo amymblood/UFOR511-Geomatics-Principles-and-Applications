@@ -77,7 +77,9 @@ In this task, you will export a filtered table from a shapefile, and then you wi
 
 Sometimes, "lots" in cities are exceptionally large or are adjacent to more than one street. Because these lots only have one "true" address, urban foresters may make up addresses to designate more specific areas. Find the name of the column that designates whether or not the address for a tree was made up to associate the tree with a nearby lot. You are going to export just the data for trees that are assigned "Yes" in this column.
 
-**Step 2:** Right-click street-trees and select "Export Features." 
+**Step 2:** Open ArcGIS Pro, create a new map (name it “Lab-1”) and add the street-trees data to the map. You can add the data by navigating to the Map tab, then Add Data > Data. Select the street-trees file. You should see street-trees in the Contents Pane to the left, and your map should now have points representing street trees in the chosen neighbourhood.
+
+**Step 3:** Right-click street-trees and select "Export Features." 
 
 - **Input Rows:** street-trees 
 - **Output Location:** Where you want the table to be saved 
@@ -86,7 +88,7 @@ Sometimes, "lots" in cities are exceptionally large or are adjacent to more than
 
 Where `Assigned` is equal to Y.
 
-**Step 3:** Open the attribute table for **AssignedTrees** and add a new text field to the data. On the top of the attribute table, there is a button that says "Add". The table will switch to field view. Name the field "Address" and select "Text" as the data type. Click "Save" in the top bar. Close "Field View" and return to the attribute table. Your new field should appear as the very last column in the dataset. Right-click the field and select "Calculate Field."
+**Step 4:** Open the attribute table for **AssignedTrees** and add a new text field to the data. On the top of the attribute table, there is a button that says "Add". The table will switch to field view. Name the field "Address" and select "Text" as the data type. Click "Save" in the top bar. Close "Field View" and return to the attribute table. Your new field should appear as the very last column in the dataset. Right-click the field and select "Calculate Field."
 
 The address locator you create in Task 3 requires addresses to be written in a specific way---street numbers and names must be in the same column. You will need to specify to ArcGIS that you are combining two strings (another designation for text data). Within the Fields menu under "Expression," double-click civic_numb. You will notice that the field below the equal sign is now populated with `!civic_numb!`.
 
