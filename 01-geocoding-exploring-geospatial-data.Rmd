@@ -195,8 +195,8 @@ Add **parks_polygon_representation** and a satellite basemap to your map (Map \>
 
 Right-click **parktrees**, mouse down to Joins and Relates \> Spatial Join: 
 
-- **Target Features:** parktrees 
-- **Join Features:** parks_polygon_representation 
+- **Target Features:** parks_polygon_representation  
+- **Join Features:** parktrees
 - **Output Feature Class:** parks_numtrees 
 - **Join Operation:** Join one to one 
 - **Match Option:** Intersect
@@ -211,7 +211,7 @@ Using "Select By Attributes," select all of the parks with an area greater than 
 
 ##### Q11. How many parks in vancouver are greater than 1 ha in size? {.unnumbered}
 
-##### Q12. From the selected data, which park has the highest tree density? {.unnumbered}
+##### Q12. From the selected data, which park (by park_ID) has the highest tree density? {.unnumbered}
 
 Change the symbology of **parks_numtrees** from single symbol to unclassed colors displaying the tree density field.
 
