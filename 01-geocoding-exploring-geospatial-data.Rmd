@@ -221,12 +221,20 @@ Change the symbology of **parks_numtrees** from single symbol to unclassed color
 
 Finally, all of the components of this lab will be brought together with a map. The map should be 11"x17", either landscape or portrait.
 
-The map will be of the neighbourhood for which you downloaded street tree data for. Zoom to that neighborhood.
-
 Requirements: 
 
 - Parks symbolized by tree density 
-- Coordinate-created points and address-created points (symbolized differently from each other!) 
-- Roads symbolized - Necessary map components (title, legend, scale bar, north arrow, student name and number, coordinate system)
+- Coordinate-created street tree points and address-created street tree points (symbolized differently from each other!) 
+- Roads symbolized
+- Necessary map components (title, legend, scale bar, north arrow, student name, coordinate system)
 
-Export your map to PDF and upload it to Canvas along with the other lab questions.
+The map will be of the neighbourhood for which you downloaded street tree data for. Zoom to that neighborhood.
+
+**Step 1:** To create a map, select "New Layout" under the Insert tab. Choose 11"x17" (portrait or landscape, whichever you prefer). 
+To the right of your Contents Pane, a Layout tab should have opened next to your Map tab. You can toggle between the two of them.
+
+With the Layout open, click the Insert Tab. From here, you will be able to insert all of your necessary map components. Click Map Frame and select the one to the right of the default extent. Within your layout, create a rectangle with your mouse. This rectangle should have populated with the map you created.
+
+**Step 2:** Use the insert tab to draw in the other map components, such as the scale bar, legend, and North Arrow.    
+
+**Step 3:** Export your map to PDF and upload it to Canvas along with the other lab questions. To export the map, click the Share Tab at the top, then select Export Layout. Choose PDF and save it to somewhere you can readily find it.
