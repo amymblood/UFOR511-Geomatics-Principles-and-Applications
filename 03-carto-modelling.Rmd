@@ -129,7 +129,7 @@ For the tool:
 -   **Input Rows:** Landuse2016
 -   **Selection Type:** New selection
 -   **+New Expression: Where** LU_code is equal to R100
--   **+Add Clause** And areaha is greater than 0.
+-   **+Add Clause** And areaha is greater than 0.1
 -   **+Add Clause** Or LU_Code is equal to U100
 -   **+Add Clause** And areaha is greater than 0.1
 
@@ -161,7 +161,7 @@ Some of the polygons in **Landuse2016.shp** were split by the identity tool, and
 -   **Statistic Type:** Sum
 -   **Case field:** capable
 
-Open **Suit_SumStats** and look at the resulting summary statistics.
+Open **Cap_SumStats** and look at the resulting summary statistics.
 
 ##### Q4. What percentage of vancouver's total area might be capable of having a new community garden? {.unnumbered}
 
