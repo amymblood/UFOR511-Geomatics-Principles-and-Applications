@@ -267,7 +267,7 @@ Your model should look similar to the one below.
 
 ------------------------------------------------------------------------
 
-## Task 4: Create and export a map {.unnumbered}
+## Task 5: Create and export a map {.unnumbered}
 
 Lastly, you will be making a map showing capability and suitability. Include your capability and suitability maps in the same layout. Include an inset of the area that is *most suitable* for a community garden.
 
