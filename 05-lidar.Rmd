@@ -68,7 +68,7 @@ Another way to explore the dataset is to use the Catalog. Right click Van_lidar.
 
 ## Task 2: Create a Digital Terrain Model  {-}
 
-**Step 1:** Now that we are familiar with the dataset, we can create a DTM using the easy to use built-in functions. To do so, search for the ‘LAS Dataset to Raster’ tool, and use your LAS Dataset as the input. Since we are interested in creating a terrain model, we want to use the binning interpolation type, and make sure that we use the minimum (i.e. the lowest) points in each cell assignment. Sampling Value refers to the resolution of the raster that we are creating – we want our raster to be 10 m x 10 m. Name this raster **‘VAN_DTM’**.
+**Step 1:** Now that we are familiar with the dataset, we can create a DTM using the easy to use built-in functions. To do so, search for the ‘LAS Dataset to Raster’ tool, and use your LAS Dataset as the input. Filter the LAS Dataset to include only "Ground." Since we are interested in creating a terrain model, we want to use the binning interpolation type, and make sure that we use the minimum (i.e. the lowest) points in each cell assignment. Sampling Value refers to the resolution of the raster that we are creating – we want our raster to be 10 m x 10 m. Name this raster **‘VAN_DTM’**.
 
 ```{r 05-las2, out.width= "50%", echo = FALSE}
     knitr::include_graphics("images/05-las2.png")
